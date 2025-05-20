@@ -1,1 +1,12 @@
-Thought process
+                                                                                   Thought process
+Input
+List of tracks (object), list of pick-ups (object) , garbage amount(Int), list of routes (object)
+
+Process
+1. create a function which takes in the list of trucks, list of pick-ups, garbage amount and list of routes and loop through the routes to find the minimum route which will be taken by a truck.
+2.Loop through the list of trucks and if the capacity of the truck is greater than or equal to the garbage amount return the truck id and the route id
+3.Else if the capacity of the tuck is less than the garbage capacity and the availability of the pick is true return the pick-up id and the rout id
+4.Else return no vehicle available.
+
+Output
+A string
